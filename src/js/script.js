@@ -1,5 +1,10 @@
-"use strict";
+$(document).ready(function () {
+  // responsive  navbar 
+
+  
 
 
 
-console.log("js file loaded");
+
+
+})

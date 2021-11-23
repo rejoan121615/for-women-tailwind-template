@@ -7,14 +7,50 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-  <div class="container bg-gray-600 mx-auto">
-    <h1 class="text-center text-white">Hello Mohd Rejoan</h1>
-  </div>
-
+<body class="bg-main-100">
+  <!-- header section  -->
+  <header>
+    <div class="container flex flex-wrap justify-between">
+      <!-- brand  -->
+      <a href="" class="inline-block rounded-br-lg p-3 pb-2 pt-6 md:p-4 xl:p-5 md:pt-8 xl:pt-9 md:rounded-br-3xl bg-main-300">
+        <h1 class="uppercase text-center text-white font-apparel text-lg md:text-xl lg:text-2xl xl:text-3xl font-black tracking-widest">for.</h1>
+      </a>
+      <!-- responsive btn  -->
+        <button id="resp_btn" class="md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+            <g id="main_menu" data-name="main menu" transform="translate(-1866.5 -46.5)">
+              <line id="Line_1" data-name="Line 1" x2="24" transform="translate(1866.5 47.5)" fill="none" stroke="#713c25" stroke-width="2"/>
+              <line id="Line_2" data-name="Line 2" x2="16" transform="translate(1874.5 55.5)" fill="none" stroke="#713c25" stroke-width="2"/>
+              <line id="Line_3" data-name="Line 3" x2="8" transform="translate(1882.5 63.5)" fill="none" stroke="#713c25" stroke-width="2"/>
+            </g>
+          </svg>
+        </button>
+      <!-- navbar  -->
+      <nav class="flex-grow w-full mt-4 md:mt-0 md:w-auto md:flex md:items-center"> 
+        <!-- menu items  -->
+        <ul class="flex flex-col p-4 rounded-md max-w-sm bg-main-dark ml-auto md:bg-transparent md:flex-row md:justify-between md:px-0 md:max-w-md md:w-1/2 lg:max-w-lg xl:max-w-xl">
+          <li class="border-b-2 border-transparent hover:border-b-main text-left"><a href="" class="capitalize my-2 text-white  lg:text-1nr md:text-main-dark">collection</a></li>
+          <li class="border-b-2 border-transparent hover:border-b-main text-center"><a href="" class="capitalize my-2 text-white lg:text-1nr  md:text-main-dark">lookbook</a></li>
+          <li class="border-b-2 border-transparent hover:border-b-main text-right"><a href="" class="capitalize my-2 text-white lg:text-1nr  md:text-main-dark">about</a></li>
+          <li class="hidden md:block">
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+                <g id="main_menu" data-name="main menu" transform="translate(-1866.5 -46.5)">
+                  <line id="Line_1" data-name="Line 1" x2="24" transform="translate(1866.5 47.5)" fill="none" stroke="#713c25" stroke-width="2"/>
+                  <line id="Line_2" data-name="Line 2" x2="16" transform="translate(1874.5 55.5)" fill="none" stroke="#713c25" stroke-width="2"/>
+                  <line id="Line_3" data-name="Line 3" x2="8" transform="translate(1882.5 63.5)" fill="none" stroke="#713c25" stroke-width="2"/>
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
 
   <!-- js file  -->
+  <script defer src="./js/jquery-3.6.0.min.js"></script>
   <script defer src="js/script.js"></script>
 </body>
 </html>

@@ -6,3 +6,17 @@
 
 
 /* custom style  */
+
+/* font family  */
+@layer base {
+  @font-face {
+    font-family: "Gilroy";
+    font-weight: normal;
+    src: url("../fonts/Gilroy-Light.otf") format("otf");
+  }
+  @font-face {
+    font-family: "Apparel";
+    font-weight: normal;
+    src: url("../fonts/Apparel Regular.ttf") format("truetype");
+  }
+}
