@@ -8,8 +8,15 @@ module.exports = {
             padding: "0.5rem",
         },
         fontFamily: {
-            gilroy: "Gilroy",
-            apparel: "Apparel",
+            "app-bold": "AppDisBold",
+            "app-black": "AppDisBlack",
+            "app-reg": "AppDisRegular",
+            "app-light": "AppDisLight",
+            "app-thin": "AppDisThin",
+            "gil-bold": "GilroyBold",
+            "gil-reg": "GilroyRegular",
+            "gil-light": "GilroyLight",
+            "gil-medium": "GilroyMedium",
         },
         letterSpacing: {
             tightest: "-2px",
@@ -42,6 +49,9 @@ module.exports = {
             },
             fontSize: {
                 "1nr": "17px",
+            },
+            screens: {
+                mxl: "1750px",
             },
         },
     },
