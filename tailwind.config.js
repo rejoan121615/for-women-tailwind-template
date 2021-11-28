@@ -35,6 +35,7 @@ module.exports = {
                 "main-300": "#be6c42",
                 "main-dark": "#713c25",
                 "main-green": "#8a7442",
+                "header-bg": "#E5D8BE",
             },
             textColor: {
                 "main-light": "#f7e7ce",
@@ -52,6 +53,38 @@ module.exports = {
             },
             screens: {
                 mxl: "1750px",
+            },
+            borderRadius: {
+                "30r": "30px",
+            },
+            fontSize: {
+                brand: "28px",
+            },
+            transformOrigin: {
+                "center-bottom": "center bottom",
+            },
+            fontSize: {
+                "4rem": "4rem",
+                "5rem": "5rem",
+                "7rem": "7rem",
+                "8rem": "8rem",
+                "9rem": "9rem",
+                "10rem": "10rem",
+            },
+            lineHeight: {
+                "4rem": "4rem",
+                "5rem": "5rem",
+                "7rem": "7rem",
+                "8rem": "8rem",
+                "9rem": "9rem",
+                "10rem": "10rem",
+            },
+            gridTemplateRows: {
+                "main-rows": "minmax(0, 1fr) 0.6fr 0.5fr",
+                "xs-main-rows": "repeat(2, minmax(0, 1fr)) 0.5fr",
+            },
+            screens: {
+                xs: "425px",
             },
         },
     },

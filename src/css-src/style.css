@@ -2,49 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
 /* custom style  */
 
 /* font family  */
 @layer base {
-  /* apparel display fonts  */
-  @font-face {
-    font-family: 'AppDisBold';
-    src: url('../fonts/Apparel-Display-Bold.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'AppDisBlack';
-    src: url('../fonts/Apparel-Display-Black.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'AppDisRegular';
-    src: url('../fonts/Apparel-Display-Regular.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'AppDisLight';
-    src: url('../fonts/Apparel-Display-Light.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'AppDisThin';
-    src: url('../fonts/Apparel-Display-Thin.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'GilroyBold';
-    src: url('../fonts/Gilroy-Bold.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'GilroyLight';
-    src: url("../fonts/Gilroy-Light.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: 'GilroyMedium';
-    src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: 'GilroyRegular';
-    src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
-  }
-
+    /* apparel display fonts  */
+    @font-face {
+        font-family: "AppDisBold";
+        src: url("../fonts/Apparel-Display-Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "AppDisBlack";
+        src: url("../fonts/Apparel-Display-Black.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "AppDisRegular";
+        src: url("../fonts/Apparel-Display-Regular.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "AppDisLight";
+        src: url("../fonts/Apparel-Display-Light.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "AppDisThin";
+        src: url("../fonts/Apparel-Display-Thin.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "GilroyBold";
+        src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "GilroyLight";
+        src: url("../fonts/Gilroy-Light.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "GilroyMedium";
+        src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "GilroyRegular";
+        src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+    }
 }
+
+/* main text section decoration  */
+
+
+
+
+
+/* 
+main .left-text {
+    grid-area: left-text;
+}
+
+main .center-text {
+    grid-area: center-text;
+}
+
+main .right-text {
+    grid-area: right-text;
+}
+
+main .video {
+    grid-area: video;
+}
+
+main .main-img {
+    grid-area: main-img;
+} */
