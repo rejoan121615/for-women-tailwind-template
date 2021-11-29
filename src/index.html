@@ -234,6 +234,7 @@
                     grid grid-cols-6 grid-rows-main-rows
                     gap-y-5
                     xs:grid-rows-xs-main-rows
+                    sm:grid-rows-sm-main-rows
                 "
             >
                 <!-- left text  -->
@@ -257,6 +258,7 @@
                             opacity-10
                             translate-x-7
                             xs:text-9xl xs:translate-x-11
+                            sm:text-12rem sm:translate-x-14
                         "
                     >
                         2021
@@ -278,6 +280,7 @@
                             text-3xl
                             ml-6
                             xs:ml-11 xs:text-4xl
+                            sm:text-4xl sm:mt-2 sm:ml-16
                         "
                     >
                         for.
@@ -289,6 +292,7 @@
                             ml-24
                             -mt-16
                             xs:text-5rem xs:-mt-14 xs:ml-36 xs:leading-5rem
+                            sm:-mt-12 sm:text-8xl sm:ml-40
                         "
                     >
                         every
@@ -302,11 +306,21 @@
                             -mt-8
                             -ml-4
                             xs:text-8xl xs:-mt-6 xs:ml-2
+                            sm:text-9-2rem
                         "
                     >
                         woman
                     </h1>
-                    <p class="font-gil-reg uppercase text-main-dark text-xs xs:font-gil-medium">
+                    <p
+                        class="
+                            font-gil-reg
+                            uppercase
+                            text-main-dark text-xs
+                            xs:font-gil-medium
+                            sm:-ml-8
+                            sm:text-2xl
+                        "
+                    >
                         latest collection
                     </p>
                 </div>
@@ -342,11 +356,18 @@
                         text-right
                         col-start-5 col-end-7
                         row-start-3 row-end-4
+                        sm:row-start-1
+                        sm:row-end-2
+                        sm:col-start-6
+                        sm:col-end-7
+                        sm:flex
+                        sm:items-start
+                        sm:justify-start
                     "
                 >
                     <svg
                         id="badge"
-                        class="inline-block w-4/6"
+                        class="inline-block w-4/6 sm:-mt-8"
                         xmlns="http://www.w3.org/2000/svg"
                         width="189.437"
                         height="189.437"
@@ -538,8 +559,20 @@
                     </svg>
                 </div>
                 <!-- video  -->
-                <div class="video col-start-1 col-end-5 row-start-3 row-end-4">
-                    <div class="video-wrap">
+                <div
+                    class="
+                        video
+                        col-start-1 col-end-5
+                        row-start-3 row-end-4
+                        sm:row-start-2
+                        sm:row-end-3
+                        sm:col-start-1
+                        sm:col-end-2
+                        sm:grid
+                        sm:content-center
+                    "
+                >
+                    <div class="video-wrap sm:mt-40">
                         <img src="./img/Group 16.png" alt="" />
                     </div>
                     <p class="para-small text-center">watch video</p>

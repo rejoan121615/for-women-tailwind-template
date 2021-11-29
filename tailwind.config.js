@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
     mode: "jit",
     purge: ["./src/*.html"],
@@ -26,6 +28,10 @@ module.exports = {
             wide: "0.5px",
             wider: "1px",
             widest: "2px",
+        },
+        screens: {
+            xs: "425px",
+            ...defaultTheme.screens,
         },
         extend: {
             backgroundColor: {
@@ -69,7 +75,23 @@ module.exports = {
                 "7rem": "7rem",
                 "8rem": "8rem",
                 "9rem": "9rem",
+                "9-2rem": "9.2rem",
                 "10rem": "10rem",
+                "11rem": "11rem",
+                "12rem": "12rem",
+                "13rem": "13rem",
+                "14rem": "14rem",
+                "15rem": "15rem",
+                "16rem": "16rem",
+                "17rem": "17rem",
+                "18rem": "18rem",
+                "19rem": "19rem",
+                "20rem": "20rem",
+                "21rem": "21rem",
+                "22rem": "22rem",
+                "23rem": "23rem",
+                "24rem": "24rem",
+                "25rem": "25rem",
             },
             lineHeight: {
                 "4rem": "4rem",
@@ -78,14 +100,30 @@ module.exports = {
                 "8rem": "8rem",
                 "9rem": "9rem",
                 "10rem": "10rem",
+                "11rem": "11rem",
+                "12rem": "12rem",
+                "13rem": "13rem",
+                "14rem": "14rem",
+                "15rem": "15rem",
+                "16rem": "16rem",
+                "17rem": "17rem",
+                "18rem": "18rem",
+                "19rem": "19rem",
+                "20rem": "20rem",
+                "21rem": "21rem",
+                "22rem": "22rem",
+                "23rem": "23rem",
+                "24rem": "24rem",
+                "25rem": "25rem",
             },
             gridTemplateRows: {
                 "main-rows": "minmax(0, 1fr) 0.6fr 0.5fr",
                 "xs-main-rows": "repeat(2, minmax(0, 1fr)) 0.5fr",
+                "sm-main-rows": "200px 320px"
             },
-            screens: {
-                xs: "425px",
-            },
+            marginTop: {
+                "13": "3.25rem"
+            }
         },
     },
     variants: {
