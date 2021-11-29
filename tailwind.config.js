@@ -119,11 +119,12 @@ module.exports = {
             gridTemplateRows: {
                 "main-rows": "minmax(0, 1fr) 0.6fr 0.5fr",
                 "xs-main-rows": "repeat(2, minmax(0, 1fr)) 0.5fr",
-                "sm-main-rows": "200px 320px"
+                "sm-main-rows": "200px 320px",
+                "md-main-rows": "250px 325px",
             },
             marginTop: {
-                "13": "3.25rem"
-            }
+                13: "3.25rem",
+            },
         },
     },
     variants: {

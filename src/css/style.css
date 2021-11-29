@@ -1058,24 +1058,16 @@ main .main-img {
 		margin-left: 10rem;
 	}
 
+	.sm\:-ml-8 {
+		margin-left: -2rem;
+	}
+
 	.sm\:-mt-8 {
 		margin-top: -2rem;
 	}
 
-	.sm\:mt-8 {
-		margin-top: 2rem;
-	}
-
-	.sm\:mt-4 {
-		margin-top: 1rem;
-	}
-
 	.sm\:mt-40 {
 		margin-top: 10rem;
-	}
-
-	.sm\:-ml-8 {
-		margin-left: -2rem;
 	}
 
 	.sm\:flex {
@@ -1097,10 +1089,6 @@ main .main-img {
 
 	.sm\:content-center {
 		align-content: center;
-	}
-
-	.sm\:content-end {
-		align-content: flex-end;
 	}
 
 	.sm\:items-start {
@@ -1128,11 +1116,6 @@ main .main-img {
 	.sm\:text-9-2rem {
 		font-size: 9.2rem;
 	}
-
-	.sm\:text-2xl {
-		font-size: 1.5rem;
-		line-height: 2rem;
-	}
 }
 
 
@@ -1141,8 +1124,36 @@ main .main-img {
 
 @media (min-width: 768px) {
 
+	.md\:col-end-3 {
+		grid-column-end: 3;
+	}
+
 	.md\:mt-0 {
 		margin-top: 0px;
+	}
+
+	.md\:mt-4 {
+		margin-top: 1rem;
+	}
+
+	.md\:ml-28 {
+		margin-left: 7rem;
+	}
+
+	.md\:-mt-16 {
+		margin-top: -4rem;
+	}
+
+	.md\:ml-60 {
+		margin-left: 15rem;
+	}
+
+	.md\:ml-16 {
+		margin-left: 4rem;
+	}
+
+	.md\:ml-14 {
+		margin-left: 3.5rem;
 	}
 
 	.md\:block {
@@ -1165,16 +1176,63 @@ main .main-img {
 		width: 50%;
 	}
 
+	.md\:w-8\/12 {
+		width: 66.666667%;
+	}
+
+	.md\:w-7\/12 {
+		width: 58.333333%;
+	}
+
+	.md\:w-10\/12 {
+		width: 83.333333%;
+	}
+
+	.md\:w-5\/6 {
+		width: 83.333333%;
+	}
+
 	.md\:max-w-md {
 		max-width: 28rem;
+	}
+
+	.md\:translate-x-16 {
+		--tw-translate-x: 4rem;
+		transform: var(--tw-transform);
+	}
+
+	.md\:-translate-y-16 {
+		--tw-translate-y: -4rem;
+		transform: var(--tw-transform);
+	}
+
+	.md\:-rotate-90 {
+		--tw-rotate: -90deg;
+		transform: var(--tw-transform);
+	}
+
+	.md\:grid-rows-md-main-rows {
+		grid-template-rows: 250px 325px;
 	}
 
 	.md\:flex-row {
 		flex-direction: row;
 	}
 
+	.md\:content-end {
+		align-content: flex-end;
+	}
+
 	.md\:items-center {
 		align-items: center;
+	}
+
+	.md\:justify-end {
+		justify-content: flex-end;
+	}
+
+	.md\:justify-center {
+		justify-content: center;
 	}
 
 	.md\:justify-between {
@@ -1198,14 +1256,57 @@ main .main-img {
 		padding-top: 2rem;
 	}
 
+	.md\:font-gil-reg {
+		font-family: GilroyRegular;
+	}
+
 	.md\:text-xl {
 		font-size: 1.25rem;
 		line-height: 1.75rem;
 	}
 
+	.md\:text-14rem {
+		font-size: 14rem;
+	}
+
+	.md\:text-5xl {
+		font-size: 3rem;
+		line-height: 1;
+	}
+
+	.md\:text-7rem {
+		font-size: 7rem;
+	}
+
+	.md\:text-10rem {
+		font-size: 10rem;
+	}
+
+	.md\:text-base {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	.md\:leading-8rem {
+		line-height: 8rem;
+	}
+
+	.md\:leading-7rem {
+		line-height: 7rem;
+	}
+
 	.md\:text-main-dark {
 		--tw-text-opacity: 1;
 		color: rgba(113, 60, 37, var(--tw-text-opacity));
+	}
+
+	.md\:text-main-300 {
+		--tw-text-opacity: 1;
+		color: rgba(190, 108, 66, var(--tw-text-opacity));
+	}
+
+	.md\:opacity-90 {
+		opacity: 0.9;
 	}
 }
 

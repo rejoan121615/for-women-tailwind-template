@@ -235,6 +235,11 @@
                     gap-y-5
                     xs:grid-rows-xs-main-rows
                     sm:grid-rows-sm-main-rows
+                    md:grid-rows-md-main-rows
+                    lg:grid-rows-lg-main-rows
+                    xl:grid-rows-xl-main-rows
+                    2xl:grid-rows-2xl-main-rows
+                    mxl:grid-rows-mxl-main-rows
                 "
             >
                 <!-- left text  -->
@@ -259,6 +264,7 @@
                             translate-x-7
                             xs:text-9xl xs:translate-x-11
                             sm:text-12rem sm:translate-x-14
+                            md:text-14rem md:translate-x-16
                         "
                     >
                         2021
@@ -281,6 +287,7 @@
                             ml-6
                             xs:ml-11 xs:text-4xl
                             sm:text-4xl sm:mt-2 sm:ml-16
+                            md:text-5xl md:mt-4 md:ml-28
                         "
                     >
                         for.
@@ -293,6 +300,7 @@
                             -mt-16
                             xs:text-5rem xs:-mt-14 xs:ml-36 xs:leading-5rem
                             sm:-mt-12 sm:text-8xl sm:ml-40
+                            md:-mt-16 md:ml-60 md:text-7rem md:leading-8rem
                         "
                     >
                         every
@@ -307,6 +315,7 @@
                             -ml-4
                             xs:text-8xl xs:-mt-6 xs:ml-2
                             sm:text-9-2rem
+                            md:text-10rem md:leading-7rem
                         "
                     >
                         woman
@@ -318,7 +327,7 @@
                             text-main-dark text-xs
                             xs:font-gil-medium
                             sm:-ml-8
-                            sm:text-2xl
+                            md:text-base md:font-gil-reg md:mt-4
                         "
                     >
                         latest collection
@@ -335,10 +344,11 @@
                         flex
                         items-end
                         justify-center
+                        md:justify-center
                     "
                 >
                     <img
-                        class="w-64 xs:w-11/12"
+                        class="w-64 xs:w-11/12 md:w-6/6 md:ml-16"
                         src="./img/main-highlight-xl.png"
                         srcset="
                             ./img/main-highlight-sm.png  700w,
@@ -363,6 +373,7 @@
                         sm:flex
                         sm:items-start
                         sm:justify-start
+                        md:justify-end
                     "
                 >
                     <svg
@@ -570,12 +581,25 @@
                         sm:col-end-2
                         sm:grid
                         sm:content-center
+                        md:col-end-3 md:content-end
                     "
                 >
-                    <div class="video-wrap sm:mt-40">
+                    <div class="video-wrap sm:mt-40 md:w-8/12 md:mt-0">
                         <img src="./img/Group 16.png" alt="" />
                     </div>
-                    <p class="para-small text-center">watch video</p>
+                    <p
+                        class="
+                            para-small
+                            text-center
+                            md:-rotate-90
+                            md:translate-x-16
+                            md:-translate-y-16
+                            md:text-main-dark
+                            md:opacity-90
+                        "
+                    >
+                        watch video
+                    </p>
                 </div>
             </div>
         </main>
