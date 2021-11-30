@@ -133,7 +133,7 @@ module.exports = {
                 "md-main-rows": "250px 325px",
                 "lg-main-rows": "275px 350px",
                 "xl-main-rows": "400px 300px",
-                "2xl-main-rows": "325px 520px",
+                "2xl-main-rows": "325px 600px",
                 "mxl-main-rows": "380px 600px",
             },
             marginTop: {

@@ -1524,24 +1524,12 @@ main .main-img {
 		margin-top: 0px;
 	}
 
-	.\32xl\:w-3\/6 {
-		width: 50%;
-	}
-
-	.\32xl\:w-4\/6 {
-		width: 66.666667%;
-	}
-
-	.\32xl\:w-9\/12 {
-		width: 75%;
-	}
-
-	.\32xl\:w-5\/12 {
-		width: 41.666667%;
-	}
-
 	.\32xl\:w-7\/12 {
 		width: 58.333333%;
+	}
+
+	.\32xl\:w-8\/12 {
+		width: 66.666667%;
 	}
 
 	.\32xl\:translate-x-24 {
@@ -1569,23 +1557,13 @@ main .main-img {
 		transform: var(--tw-transform);
 	}
 
-	.\32xl\:translate-x-12 {
-		--tw-translate-x: 3rem;
-		transform: var(--tw-transform);
-	}
-
-	.\32xl\:translate-x-16 {
-		--tw-translate-x: 4rem;
-		transform: var(--tw-transform);
-	}
-
 	.\32xl\:translate-x-20 {
 		--tw-translate-x: 5rem;
 		transform: var(--tw-transform);
 	}
 
 	.\32xl\:grid-rows-2xl-main-rows {
-		grid-template-rows: 325px 520px;
+		grid-template-rows: 325px 600px;
 	}
 
 	.\32xl\:content-end {
@@ -1643,6 +1621,10 @@ main .main-img {
 
 
 @media (min-width: 1760px) {
+
+	.mxl\:w-7\/12 {
+		width: 58.333333%;
+	}
 
 	.mxl\:translate-x-12 {
 		--tw-translate-x: 3rem;
