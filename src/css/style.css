@@ -1310,20 +1310,8 @@ main .main-img {
 		grid-column-end: 7;
 	}
 
-	.lg\:-ml-8 {
-		margin-left: -2rem;
-	}
-
-	.lg\:-ml-10 {
-		margin-left: -2.5rem;
-	}
-
 	.lg\:-ml-12 {
 		margin-left: -3rem;
-	}
-
-	.lg\:-mt-4 {
-		margin-top: -1rem;
 	}
 
 	.lg\:-mt-8 {
@@ -1338,7 +1326,7 @@ main .main-img {
 		width: 58.333333%;
 	}
 
-	.lg\:w-10\/12 {
+	.lg\:w-5\/6 {
 		width: 83.333333%;
 	}
 
@@ -1350,54 +1338,18 @@ main .main-img {
 		max-width: 32rem;
 	}
 
-	.lg\:translate-x-12 {
-		--tw-translate-x: 3rem;
-		transform: var(--tw-transform);
-	}
-
-	.lg\:translate-x-10 {
-		--tw-translate-x: 2.5rem;
-		transform: var(--tw-transform);
-	}
-
-	.lg\:translate-x-8 {
-		--tw-translate-x: 2rem;
-		transform: var(--tw-transform);
-	}
-
-	.lg\:translate-x-16 {
-		--tw-translate-x: 4rem;
-		transform: var(--tw-transform);
-	}
-
-	.lg\:translate-x-2 {
-		--tw-translate-x: 0.5rem;
-		transform: var(--tw-transform);
-	}
-
 	.lg\:translate-x-20 {
 		--tw-translate-x: 5rem;
-		transform: var(--tw-transform);
-	}
-
-	.lg\:translate-x-14 {
-		--tw-translate-x: 3.5rem;
-		transform: var(--tw-transform);
-	}
-
-	.lg\:-translate-y-14 {
-		--tw-translate-y: -3.5rem;
-		transform: var(--tw-transform);
-	}
-
-	.lg\:-translate-y-10 {
-		--tw-translate-y: -2.5rem;
 		transform: var(--tw-transform);
 	}
 
 	.lg\:-translate-y-12 {
 		--tw-translate-y: -3rem;
 		transform: var(--tw-transform);
+	}
+
+	.lg\:grid-rows-lg-main-rows {
+		grid-template-rows: 275px 350px;
 	}
 
 	.lg\:text-2xl {
@@ -1407,14 +1359,6 @@ main .main-img {
 
 	.lg\:text-17rem {
 		font-size: 17rem;
-	}
-
-	.lg\:text-13rem {
-		font-size: 13rem;
-	}
-
-	.lg\:text-16rem {
-		font-size: 16rem;
 	}
 
 	.lg\:text-14rem {
@@ -1437,8 +1381,86 @@ main .main-img {
 
 @media (min-width: 1280px) {
 
+	.xl\:col-start-5 {
+		grid-column-start: 5;
+	}
+
+	.xl\:col-end-6 {
+		grid-column-end: 6;
+	}
+
+	.xl\:-mt-20 {
+		margin-top: -5rem;
+	}
+
+	.xl\:ml-0 {
+		margin-left: 0px;
+	}
+
+	.xl\:-mt-2 {
+		margin-top: -0.5rem;
+	}
+
+	.xl\:-ml-16 {
+		margin-left: -4rem;
+	}
+
+	.xl\:mt-20 {
+		margin-top: 5rem;
+	}
+
+	.xl\:w-full {
+		width: 100%;
+	}
+
+	.xl\:w-85 {
+		width: 85%;
+	}
+
 	.xl\:max-w-xl {
 		max-width: 36rem;
+	}
+
+	.xl\:translate-x-20 {
+		--tw-translate-x: 5rem;
+		transform: var(--tw-transform);
+	}
+
+	.xl\:translate-x-24 {
+		--tw-translate-x: 6rem;
+		transform: var(--tw-transform);
+	}
+
+	.xl\:translate-x-16 {
+		--tw-translate-x: 4rem;
+		transform: var(--tw-transform);
+	}
+
+	.xl\:translate-y-2 {
+		--tw-translate-y: 0.5rem;
+		transform: var(--tw-transform);
+	}
+
+	.xl\:translate-x-28 {
+		--tw-translate-x: 7rem;
+		transform: var(--tw-transform);
+	}
+
+	.xl\:-translate-y-16 {
+		--tw-translate-y: -4rem;
+		transform: var(--tw-transform);
+	}
+
+	.xl\:grid-rows-xl-main-rows {
+		grid-template-rows: 400px 300px;
+	}
+
+	.xl\:content-center {
+		align-content: center;
+	}
+
+	.xl\:justify-end {
+		justify-content: flex-end;
 	}
 
 	.xl\:p-5 {
@@ -1449,8 +1471,64 @@ main .main-img {
 		padding-top: 2.25rem;
 	}
 
+	.xl\:text-center {
+		text-align: center;
+	}
+
 	.xl\:text-3xl {
 		font-size: 1.875rem;
 		line-height: 2.25rem;
+	}
+
+	.xl\:text-22rem {
+		font-size: 22rem;
+	}
+
+	.xl\:text-5rem {
+		font-size: 5rem;
+	}
+
+	.xl\:text-10rem {
+		font-size: 10rem;
+	}
+
+	.xl\:text-18rem {
+		font-size: 18rem;
+	}
+
+	.xl\:text-xl {
+		font-size: 1.25rem;
+		line-height: 1.75rem;
+	}
+
+	.xl\:text-lg {
+		font-size: 1.125rem;
+		line-height: 1.75rem;
+	}
+
+	.xl\:leading-8rem {
+		line-height: 8rem;
+	}
+}
+
+
+
+
+
+@media (min-width: 1536px) {
+
+	.\32xl\:grid-rows-2xl-main-rows {
+		grid-template-rows: 325px 400px;
+	}
+}
+
+
+
+
+
+@media (min-width: 1750px) {
+
+	.mxl\:grid-rows-mxl-main-rows {
+		grid-template-rows: 350px 450px;
 	}
 }

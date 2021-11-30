@@ -121,10 +121,17 @@ module.exports = {
                 "xs-main-rows": "repeat(2, minmax(0, 1fr)) 0.5fr",
                 "sm-main-rows": "200px 320px",
                 "md-main-rows": "250px 325px",
+                "lg-main-rows": "275px 350px",
+                "xl-main-rows": "400px 300px",
+                "2xl-main-rows": "325px 400px",
+                "mxl-main-rows": "350px 450px",
             },
             marginTop: {
                 13: "3.25rem",
             },
+            width: {
+                "85": "85%"
+            }
         },
     },
     variants: {
