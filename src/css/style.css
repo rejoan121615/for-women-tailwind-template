@@ -659,10 +659,10 @@ video {
 		max-width: 1536px;
 	}
 }
-@media (min-width: 1750px) {
+@media (min-width: 1760px) {
 
 	.container {
-		max-width: 1750px;
+		max-width: 1760px;
 	}
 }
 .col-start-1 {
@@ -1326,10 +1326,6 @@ main .main-img {
 		width: 58.333333%;
 	}
 
-	.lg\:w-5\/6 {
-		width: 83.333333%;
-	}
-
 	.lg\:w-11\/12 {
 		width: 91.666667%;
 	}
@@ -1409,12 +1405,12 @@ main .main-img {
 		margin-top: 5rem;
 	}
 
-	.xl\:w-full {
-		width: 100%;
-	}
-
 	.xl\:w-85 {
 		width: 85%;
+	}
+
+	.xl\:w-full {
+		width: 100%;
 	}
 
 	.xl\:max-w-xl {
@@ -1475,11 +1471,6 @@ main .main-img {
 		text-align: center;
 	}
 
-	.xl\:text-3xl {
-		font-size: 1.875rem;
-		line-height: 2.25rem;
-	}
-
 	.xl\:text-22rem {
 		font-size: 22rem;
 	}
@@ -1517,8 +1508,133 @@ main .main-img {
 
 @media (min-width: 1536px) {
 
+	.\32xl\:mt-8 {
+		margin-top: 2rem;
+	}
+
+	.\32xl\:ml-0 {
+		margin-left: 0px;
+	}
+
+	.\32xl\:-mt-2 {
+		margin-top: -0.5rem;
+	}
+
+	.\32xl\:mt-0 {
+		margin-top: 0px;
+	}
+
+	.\32xl\:w-3\/6 {
+		width: 50%;
+	}
+
+	.\32xl\:w-4\/6 {
+		width: 66.666667%;
+	}
+
+	.\32xl\:w-9\/12 {
+		width: 75%;
+	}
+
+	.\32xl\:w-5\/12 {
+		width: 41.666667%;
+	}
+
+	.\32xl\:w-7\/12 {
+		width: 58.333333%;
+	}
+
+	.\32xl\:translate-x-24 {
+		--tw-translate-x: 6rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:translate-y-5 {
+		--tw-translate-y: 1.25rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:translate-x-10 {
+		--tw-translate-x: 2.5rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:-translate-x-12 {
+		--tw-translate-x: -3rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:-translate-y-10 {
+		--tw-translate-y: -2.5rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:translate-x-12 {
+		--tw-translate-x: 3rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:translate-x-16 {
+		--tw-translate-x: 4rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:translate-x-20 {
+		--tw-translate-x: 5rem;
+		transform: var(--tw-transform);
+	}
+
 	.\32xl\:grid-rows-2xl-main-rows {
-		grid-template-rows: 325px 400px;
+		grid-template-rows: 325px 520px;
+	}
+
+	.\32xl\:content-end {
+		align-content: flex-end;
+	}
+
+	.\32xl\:pb-10 {
+		padding-bottom: 2.5rem;
+	}
+
+	.\32xl\:text-brand {
+		font-size: 28px;
+	}
+
+	.\32xl\:text-26rem {
+		font-size: 26rem;
+	}
+
+	.\32xl\:text-5\.5rem {
+		font-size: 5.2rem;
+	}
+
+	.\32xl\:text-12rem {
+		font-size: 12rem;
+	}
+
+	.\32xl\:text-21rem {
+		font-size: 21rem;
+	}
+
+	.\32xl\:text-2xl {
+		font-size: 1.5rem;
+		line-height: 2rem;
+	}
+
+	.\32xl\:leading-5rem {
+		line-height: 5rem;
+	}
+
+	.\32xl\:leading-10rem {
+		line-height: 10rem;
+	}
+
+	.\32xl\:leading-17rem {
+		line-height: 17rem;
+	}
+
+	.\32xl\:tracking-2xl {
+		letter-spacing: 15px;
 	}
 }
 
@@ -1526,9 +1642,39 @@ main .main-img {
 
 
 
-@media (min-width: 1750px) {
+@media (min-width: 1760px) {
+
+	.mxl\:translate-x-12 {
+		--tw-translate-x: 3rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:-translate-x-20 {
+		--tw-translate-x: -5rem;
+		transform: var(--tw-transform);
+	}
 
 	.mxl\:grid-rows-mxl-main-rows {
-		grid-template-rows: 350px 450px;
+		grid-template-rows: 380px 600px;
+	}
+
+	.mxl\:text-28rem {
+		font-size: 28rem;
+	}
+
+	.mxl\:text-6rem {
+		font-size: 6rem;
+	}
+
+	.mxl\:text-13rem {
+		font-size: 13rem;
+	}
+
+	.mxl\:text-24\.75rem {
+		font-size: 24.75rem;
+	}
+
+	.mxl\:leading-20rem {
+		line-height: 20rem;
 	}
 }

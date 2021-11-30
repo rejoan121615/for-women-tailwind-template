@@ -54,17 +54,11 @@ module.exports = {
             borderColor: {
                 "b-main": "#be6c42",
             },
-            fontSize: {
-                "1nr": "17px",
-            },
             screens: {
-                mxl: "1750px",
+                mxl: "1760px",
             },
             borderRadius: {
                 "30r": "30px",
-            },
-            fontSize: {
-                brand: "28px",
             },
             transformOrigin: {
                 "center-bottom": "center bottom",
@@ -72,6 +66,7 @@ module.exports = {
             fontSize: {
                 "4rem": "4rem",
                 "5rem": "5rem",
+                "6rem": "6rem",
                 "7rem": "7rem",
                 "8rem": "8rem",
                 "9rem": "9rem",
@@ -92,10 +87,20 @@ module.exports = {
                 "23rem": "23rem",
                 "24rem": "24rem",
                 "25rem": "25rem",
+                "26rem": "26rem",
+                "27rem": "27rem",
+                "28rem": "28rem",
+                "29rem": "29rem",
+                "30rem": "30rem",
+                "brand": "28px",
+                "11.5rem": "11.5rem",
+                "5.5rem": "5.2rem",
+                "24.75rem": "24.75rem",
             },
             lineHeight: {
                 "4rem": "4rem",
                 "5rem": "5rem",
+                "6rem": "6rem",
                 "7rem": "7rem",
                 "8rem": "8rem",
                 "9rem": "9rem",
@@ -115,6 +120,11 @@ module.exports = {
                 "23rem": "23rem",
                 "24rem": "24rem",
                 "25rem": "25rem",
+                "26rem": "26rem",
+                "27rem": "27rem",
+                "28rem": "28rem",
+                "29rem": "29rem",
+                "30rem": "30rem",
             },
             gridTemplateRows: {
                 "main-rows": "minmax(0, 1fr) 0.6fr 0.5fr",
@@ -123,15 +133,18 @@ module.exports = {
                 "md-main-rows": "250px 325px",
                 "lg-main-rows": "275px 350px",
                 "xl-main-rows": "400px 300px",
-                "2xl-main-rows": "325px 400px",
-                "mxl-main-rows": "350px 450px",
+                "2xl-main-rows": "325px 520px",
+                "mxl-main-rows": "380px 600px",
             },
             marginTop: {
                 13: "3.25rem",
             },
             width: {
-                "85": "85%"
-            }
+                85: "85%",
+            },
+            letterSpacing: {
+                "2xl": "15px",
+            },
         },
     },
     variants: {
