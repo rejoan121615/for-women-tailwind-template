@@ -154,9 +154,27 @@ module.exports = {
                         transform: "translateX(-100%)",
                     },
                 },
+                circleRotate: {
+                    "0%": {
+                        transform: "rotate(0deg)",
+                    },
+                    "100%": {
+                        transform: "rotate(360deg)",
+                    },
+                },
+                zoomInOut: {
+                    "0%": {
+                        transform: "scale(0.9)",
+                    },
+                    "100%": {
+                        transform: "scale(1)",
+                    },
+                },
             },
             animation: {
-                infiniteRotate: "infiniteRotate 15s linear infinite",
+                infiniteRotate: "infiniteRotate 18s linear infinite",
+                circleRotate: "circleRotate 20s linear infinite",
+                zoomInOut: "zoomInOut 15s linear 1",
             },
         },
     },
