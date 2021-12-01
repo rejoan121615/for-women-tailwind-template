@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="28" viewBox="0 0 1250 28">
+  <g id="circle-flower" transform="translate(-297 -5075.816)">
+    <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(297 5075.816)" fill="none" stroke="#f7e7ce" stroke-width="14" stroke-dasharray="2 6">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="7" fill="none"/>
+    </g>
+    <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(1519 5075.816)" fill="none" stroke="#f7e7ce" stroke-width="14" stroke-dasharray="2 6">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="7" fill="none"/>
+    </g>
+  </g>
+</svg>

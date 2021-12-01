@@ -92,7 +92,7 @@ module.exports = {
                 "28rem": "28rem",
                 "29rem": "29rem",
                 "30rem": "30rem",
-                "brand": "28px",
+                brand: "28px",
                 "11.5rem": "11.5rem",
                 "5.5rem": "5.2rem",
                 "24.75rem": "24.75rem",
@@ -144,6 +144,19 @@ module.exports = {
             },
             letterSpacing: {
                 "2xl": "15px",
+            },
+            keyframes: {
+                infiniteRotate: {
+                    "0%": {
+                        transform: "translateX(0%)",
+                    },
+                    "100%": {
+                        transform: "translateX(-100%)",
+                    },
+                },
+            },
+            animation: {
+                infiniteRotate: "infiniteRotate 15s linear infinite",
             },
         },
     },
