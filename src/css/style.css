@@ -773,7 +773,7 @@ video {
 @-webkit-keyframes zoomInOut {
 
 	0% {
-		transform: scale(0.9);
+		transform: scale(0.85);
 	}
 
 	100% {
@@ -783,7 +783,7 @@ video {
 @keyframes zoomInOut {
 
 	0% {
-		transform: scale(0.9);
+		transform: scale(0.85);
 	}
 
 	100% {
@@ -791,8 +791,8 @@ video {
 	}
 }
 .animate-zoomInOut {
-	-webkit-animation: zoomInOut 15s linear 1;
-	        animation: zoomInOut 15s linear 1;
+	-webkit-animation: zoomInOut 30s linear 1;
+	        animation: zoomInOut 30s linear 1;
 }
 @-webkit-keyframes circleRotate {
 
@@ -982,6 +982,10 @@ video {
 }
 .opacity-10 {
 	opacity: 0.1;
+}
+.animation-fill-forwards {
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
 }
 
 /* custom style  */

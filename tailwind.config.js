@@ -164,7 +164,7 @@ module.exports = {
                 },
                 zoomInOut: {
                     "0%": {
-                        transform: "scale(0.9)",
+                        transform: "scale(0.85)",
                     },
                     "100%": {
                         transform: "scale(1)",
@@ -174,12 +174,17 @@ module.exports = {
             animation: {
                 infiniteRotate: "infiniteRotate 18s linear infinite",
                 circleRotate: "circleRotate 20s linear infinite",
-                zoomInOut: "zoomInOut 15s linear 1",
+                zoomInOut: "zoomInOut 30s linear 1",
             },
+            animationFillMode: {
+                "forward": "forwards"
+            }
         },
     },
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require("tailwindcss-animation"),
+    ],
 };
