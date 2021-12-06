@@ -1,4 +1,22 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
+const plugin = require("tailwindcss/plugin");
+
+const customTranslateX = plugin(function ({ addUtilities }) {
+    addUtilities({
+        ".translate-x-30perc": {
+            transform: "translateX(30%)",
+        },
+        ".translate-y-22": {
+            transform: "translateY(5.5rem)",
+        },
+        ".translate-both-butt-sm": {
+            transform: "translate(-60px, 150px)",
+        },
+        ".translate-both-butt-md": {
+            transform: "translate(-100px, 150px)",
+        }
+    });
+});
 
 module.exports = {
     mode: "jit",
@@ -28,10 +46,17 @@ module.exports = {
             wide: "0.5px",
             wider: "1px",
             widest: "2px",
+            large: "6px",
+            larger: "9px",
+            largest: "12px",
         },
         screens: {
             xs: "425px",
             ...defaultTheme.screens,
+        },
+        maxWidth: {
+            "715px": "715px",
+            "800px": "800px",
         },
         extend: {
             backgroundColor: {
@@ -53,6 +78,15 @@ module.exports = {
             },
             borderColor: {
                 "b-main": "#be6c42",
+                "main-light": "#f7e7ce",
+                "main-100": "#e8dcc3",
+                "main-200": "#e2d2b7",
+                "main-300": "#be6c42",
+                "main-dark": "#713c25",
+                "main-green": "#8a7442",
+            },
+            borderWidth: {
+                1: "1px",
             },
             screens: {
                 mxl: "1760px",
@@ -64,6 +98,7 @@ module.exports = {
                 "center-bottom": "center bottom",
             },
             fontSize: {
+                xs: "0.6rem",
                 "4rem": "4rem",
                 "5rem": "5rem",
                 "6rem": "6rem",
@@ -93,6 +128,8 @@ module.exports = {
                 "29rem": "29rem",
                 "30rem": "30rem",
                 brand: "28px",
+                "40px": "40px",
+                "17px": "17px",
                 "11.5rem": "11.5rem",
                 "5.5rem": "5.2rem",
                 "24.75rem": "24.75rem",
@@ -141,7 +178,11 @@ module.exports = {
             },
             width: {
                 85: "85%",
+                130: "130%",
+                "25rem": "25rem",
+                "28rem": "28rem",
             },
+
             letterSpacing: {
                 "2xl": "15px",
             },
@@ -162,14 +203,14 @@ module.exports = {
                         transform: "rotate(360deg)",
                     },
                 },
-                zoomInOut: {
-                    "0%": {
-                        transform: "scale(0.85)",
-                    },
-                    "100%": {
-                        transform: "scale(1)",
-                    },
-                },
+                // zoomInOut: {
+                //     "0%": {
+                //         transform: "scale(0.85)",
+                //     },
+                //     "100%": {
+                //         transform: "scale(1)",
+                //     },
+                // },
             },
             animation: {
                 infiniteRotate: "infiniteRotate 18s linear infinite",
@@ -177,14 +218,12 @@ module.exports = {
                 zoomInOut: "zoomInOut 30s linear 1",
             },
             animationFillMode: {
-                "forward": "forwards"
-            }
+                forward: "forwards",
+            },
         },
     },
     variants: {
         extend: {},
     },
-    plugins: [
-        require("tailwindcss-animation"),
-    ],
+    plugins: [require("tailwindcss-animation"), customTranslateX],
 };

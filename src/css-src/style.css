@@ -46,28 +46,50 @@
 }
 
 /* main text section decoration  */
-
-
-
-
-
-/* 
-main .left-text {
-    grid-area: left-text;
+.big-text {
+    @apply font-app-reg
+    text-7xl 
+    xs:text-8xl 
+    sm:text-9-2rem
+    md:text-10rem md:leading-7rem
+    lg:text-14rem lg:leading-9rem
+    xl:text-18rem
+    2xl:text-21rem
+    2xl:leading-17rem
+    mxl:text-24.75rem
+    mxl:leading-20rem;
 }
 
-main .center-text {
-    grid-area: center-text;
+.mid-text {
+    @apply font-app-reg
+    text-4rem 
+    xs:text-5rem xs:leading-5rem
+    sm:text-8xl
+    md:text-7rem md:leading-8rem
+    xl:text-10rem
+    xl:leading-8rem
+    xl:text-center
+    2xl:text-12rem 2xl:leading-10rem
+    mxl:text-13rem;
 }
 
-main .right-text {
-    grid-area: right-text;
+
+.para {
+    @apply font-gil-reg text-sm md:text-base xl:text-17px 2xl:text-lg text-main-dark;
 }
 
-main .video {
-    grid-area: video;
+.text-40 {
+    @apply font-app-reg text-main-dark text-3xl xl:text-4xl ;
 }
 
-main .main-img {
-    grid-area: main-img;
-} */
+section {
+    /* @apply bg-header-bg; */
+}
+
+.btn {
+    @apply capitalize
+    font-app-reg text-center
+    inline-block px-6 py-2.5
+    text-main-dark border
+    text-sm md:text-base xl:text-17px border-main-dark;
+}
