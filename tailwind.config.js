@@ -55,10 +55,23 @@ module.exports = {
             ...defaultTheme.screens,
         },
         maxWidth: {
+            "400px": "400px",
+            "430px": "430px",
             "715px": "715px",
             "800px": "800px",
+            "915px": "925px",
+            "950px": "950px",
+            "1050px": "1100px",
+            "1300px": "1300px",
+            "initial": "initial",
+
+
+            
         },
         extend: {
+            padding: {
+                "320px": "320px"
+            },
             backgroundColor: {
                 "main-light": "#f7e7ce",
                 "main-100": "#e8dcc3",
@@ -99,11 +112,13 @@ module.exports = {
             },
             fontSize: {
                 xs: "0.6rem",
+                "3rem": "3rem",
                 "4rem": "4rem",
                 "5rem": "5rem",
                 "6rem": "6rem",
                 "7rem": "7rem",
                 "8rem": "8rem",
+                "8.5rem": "8.5rem",
                 "9rem": "9rem",
                 "9-2rem": "9.2rem",
                 "10rem": "10rem",
@@ -135,7 +150,9 @@ module.exports = {
                 "24.75rem": "24.75rem",
             },
             lineHeight: {
+                "3rem": "3rem",
                 "4rem": "4rem",
+                "4.5rem": "4.5rem",
                 "5rem": "5rem",
                 "6rem": "6rem",
                 "7rem": "7rem",
@@ -179,8 +196,11 @@ module.exports = {
             width: {
                 85: "85%",
                 130: "130%",
+                120: "120%",
                 "25rem": "25rem",
                 "28rem": "28rem",
+                "38rem": "38rem",
+                "49rem": "49rem",
             },
 
             letterSpacing: {
