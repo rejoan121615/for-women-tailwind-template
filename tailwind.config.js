@@ -14,7 +14,7 @@ const customTranslateX = plugin(function ({ addUtilities }) {
         },
         ".translate-both-butt-md": {
             transform: "translate(-100px, 150px)",
-        }
+        },
     });
 });
 
@@ -55,22 +55,25 @@ module.exports = {
             ...defaultTheme.screens,
         },
         maxWidth: {
+            "305px": "305px",
             "400px": "400px",
             "430px": "430px",
+            "500px": "500px",
+            "600px": "600px",
             "715px": "715px",
             "800px": "800px",
             "915px": "925px",
             "950px": "950px",
             "1050px": "1100px",
             "1300px": "1300px",
-            "initial": "initial",
-
-
-            
+            initial: "initial",
         },
         extend: {
+            rotate: {
+                '270': '270deg',
+            },
             padding: {
-                "320px": "320px"
+                "320px": "320px",
             },
             backgroundColor: {
                 "main-light": "#f7e7ce",
