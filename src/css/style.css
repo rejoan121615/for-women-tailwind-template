@@ -2153,6 +2153,10 @@ section {
 		padding-top: 0.5rem;
 	}
 
+	.lg\:text-right {
+		text-align: right;
+	}
+
 	.lg\:text-2xl {
 		font-size: 1.5rem;
 		line-height: 2rem;
@@ -2620,10 +2624,6 @@ section {
 
 	.mxl\:max-w-430px {
 		max-width: 430px;
-	}
-
-	.mxl\:max-w-initial {
-		max-width: initial;
 	}
 
 	.mxl\:max-w-600px {
