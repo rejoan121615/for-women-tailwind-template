@@ -100,3 +100,37 @@ section {
 
 /* i think there background  */
 
+#look-book {
+    background-image: url('../img/look-book/main-650.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+@media only screen and (min-width: 425px) {
+    #look-book {
+        
+    }
+}
+@media only screen and (min-width: 600px) {
+    #look-book {
+        background-image: url('../img/look-book/main-1000.jpg');
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #look-book {
+        background-image: url('../img/look-book/main-1300.jpg');
+    }
+}
+@media only screen and (min-width: 1300px) {
+    #look-book {
+        background-image: url('../img/look-book/main-1600.jpg');
+    }
+}
+@media only screen and (min-width: 1600px) {
+    #look-book {
+        background-image: url('../img/look-book/main.jpg');
+    }
+}
+
+
+

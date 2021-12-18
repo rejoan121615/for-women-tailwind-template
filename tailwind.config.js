@@ -15,6 +15,12 @@ const customTranslateX = plugin(function ({ addUtilities }) {
         ".translate-both-butt-md": {
             transform: "translate(-100px, 150px)",
         },
+        ".-translate-x-13": {
+            transform: "translateX(-4rem)",
+        },
+        ".-translate-x-14": {
+            transform: "translateX(-6rem)",
+        },
     });
 });
 
@@ -56,6 +62,8 @@ module.exports = {
         },
         maxWidth: {
             "305px": "305px",
+            "330px": "330px",
+            "370px": "370px",
             "400px": "400px",
             "430px": "430px",
             "500px": "500px",
@@ -70,7 +78,7 @@ module.exports = {
         },
         extend: {
             rotate: {
-                '270': '270deg',
+                270: "270deg",
             },
             padding: {
                 "320px": "320px",
@@ -79,6 +87,7 @@ module.exports = {
                 "main-light": "#f7e7ce",
                 "main-100": "#e8dcc3",
                 "main-200": "#e2d2b7",
+                "main-250": "#E2D1B5",
                 "main-300": "#be6c42",
                 "main-dark": "#713c25",
                 "main-green": "#8a7442",
@@ -115,6 +124,7 @@ module.exports = {
             },
             fontSize: {
                 xs: "0.6rem",
+                md: "0.85rem",
                 "3rem": "3rem",
                 "4rem": "4rem",
                 "5rem": "5rem",
@@ -197,6 +207,7 @@ module.exports = {
                 13: "3.25rem",
             },
             width: {
+                40: "40%",
                 85: "85%",
                 130: "130%",
                 120: "120%",
@@ -204,6 +215,13 @@ module.exports = {
                 "28rem": "28rem",
                 "38rem": "38rem",
                 "49rem": "49rem",
+                "240px": "240px",
+                "490px": "490px",
+                "535px": "535px",
+                "755px": "755px",
+                "960px": "960px",
+                "1115px": "1115px",
+                "1325px": "1325px",
             },
 
             letterSpacing: {
