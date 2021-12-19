@@ -1677,7 +1677,7 @@
                             ">latest collections</p>
                     </div>
                     <!-- texts  -->
-                    <p class="text-lg font-app-reg mt-4 leading-140per
+                    <p class="text-lg font-app-reg mt-4
                             text-main-dark italic
                             xs:text-xl xs:mt-6 sm:text-2xl md:text-xl md:w-570px
                             lg:text-2xl lg:w-690px
@@ -1690,23 +1690,37 @@
                         visions will only grow.
                     </p>
                 </div>
-                <!-- products  -->
+                <!-- products container  -->
                 <div>
                     <!-- product  -->
-                    <div>
+                    <div class="bg-main-light grid grid-cols-4 grid-rows-product-rows">
                         <!-- image  -->
-                        <img src="" alt="" />
+                        <img
+                            class="col-start-2 col-end-5 row-start-1 row-end-3 self-end"
+                            src="./img/product-img/one.png" 
+                            srcset="./img/product-img/one.png 1x, ./img/product-img/one@2x.png 2x"
+                            alt="product image" />
                         <!-- resease  -->
-                        <div>
-                            <h6>2019</h6>
+                        <div class="col-start-1 col-end-3 row-start-1 row-end-3 flex justify-center items-start">
+                            <h6 class="
+                                    transform-gpu -rotate-90 text-main-300 text-8xl
+                                    font-app-reg translate-y-24
+                                ">2019</h6>
                         </div>
                         <!-- bottom text  -->
-                        <div class="">
-                            <span>checkout our collections</span>
-                            <h4>collection</h4>
-                            <div>
-                                <img src="" alt="" />
-                            </div>
+                        <div class="row-start-2 row-end-3 col-start-2 col-end-5">
+                            <p class="text-main-dark italic translate-x-2 text-sm">Check out our</p>
+                            <h4 class="text-main-dark text-3.5rem leading-10 mt-2 -translate-x-4 font-app-reg">Collection</h4>
+                        </div>
+                        <!-- arrow  -->
+                        <div class="col-start-3 col-end-5 row-start-3 row-end-4 flex items-center justify-end pr-4">
+                            <svg class="inline-block w-16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.204 25.408">
+                                <g fill="none" stroke="#be6c42" stroke-linecap="round">
+                                    <path d="M.5 12.704h67" data-name="Line 5"/>
+                                    <path d="m57.5.704 10 12" data-name="Line 6"/>
+                                    <path d="m57.5 24.704 10-12" data-name="Line 7"/>
+                                </g>
+                            </svg>
                         </div>
                     </div>
                 </div>

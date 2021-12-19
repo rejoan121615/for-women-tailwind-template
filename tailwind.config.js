@@ -129,6 +129,7 @@ module.exports = {
                 xs: "0.6rem",
                 md: "0.85rem",
                 "3rem": "3rem",
+                "3.5rem": "3.5rem",
                 "4rem": "4rem",
                 "5rem": "5rem",
                 "6rem": "6rem",
@@ -212,6 +213,7 @@ module.exports = {
                 "xl-main-rows": "400px 300px",
                 "2xl-main-rows": "325px 600px",
                 "mxl-main-rows": "380px 600px",
+                "product-rows": "5fr 90px 45px"
             },
             marginTop: {
                 13: "3.25rem",
