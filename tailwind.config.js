@@ -88,6 +88,7 @@ module.exports = {
             },
             padding: {
                 "320px": "320px",
+                "430px": "430px",
             },
             backgroundColor: {
                 "main-light": "#f7e7ce",

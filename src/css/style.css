@@ -1127,6 +1127,9 @@ video {
 .pb-20 {
 	padding-bottom: 5rem;
 }
+.pb-48 {
+	padding-bottom: 12rem;
+}
 .text-left {
 	text-align: left;
 }
@@ -1843,6 +1846,16 @@ section {
 		transform: var(--tw-transform);
 	}
 
+	.sm\:-translate-y-48 {
+		--tw-translate-y: -12rem;
+		transform: var(--tw-transform);
+	}
+
+	.sm\:-translate-x-12 {
+		--tw-translate-x: -3rem;
+		transform: var(--tw-transform);
+	}
+
 	.sm\:grid-cols-2 {
 		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
@@ -1943,6 +1956,10 @@ section {
 
 	.sm\:pb-24 {
 		padding-bottom: 6rem;
+	}
+
+	.sm\:pb-36 {
+		padding-bottom: 9rem;
 	}
 
 	.sm\:text-right {
@@ -2531,12 +2548,21 @@ section {
 		transform: var(--tw-transform);
 	}
 
+	.lg\:translate-x-0 {
+		--tw-translate-x: 0px;
+		transform: var(--tw-transform);
+	}
+
 	.lg\:grid-cols-3 {
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
 
 	.lg\:grid-rows-lg-main-rows {
 		grid-template-rows: 275px 350px;
+	}
+
+	.lg\:grid-rows-1 {
+		grid-template-rows: repeat(1, minmax(0, 1fr));
 	}
 
 	.lg\:py-8 {
@@ -2588,6 +2614,10 @@ section {
 
 	.lg\:pt-48 {
 		padding-top: 12rem;
+	}
+
+	.lg\:pb-64 {
+		padding-bottom: 16rem;
 	}
 
 	.lg\:text-right {
@@ -2938,6 +2968,10 @@ section {
 		padding-left: 2rem;
 	}
 
+	.xl\:pb-72 {
+		padding-bottom: 18rem;
+	}
+
 	.xl\:text-left {
 		text-align: left;
 	}
@@ -3238,6 +3272,10 @@ section {
 		padding-left: 3rem;
 	}
 
+	.\32xl\:pb-80 {
+		padding-bottom: 20rem;
+	}
+
 	.\32xl\:text-brand {
 		font-size: 28px;
 	}
@@ -3417,6 +3455,11 @@ section {
 		transform: var(--tw-transform);
 	}
 
+	.mxl\:translate-y-48 {
+		--tw-translate-y: 12rem;
+		transform: var(--tw-transform);
+	}
+
 	.mxl\:translate-y-36 {
 		--tw-translate-y: 9rem;
 		transform: var(--tw-transform);
@@ -3429,11 +3472,6 @@ section {
 
 	.mxl\:translate-y-24 {
 		--tw-translate-y: 6rem;
-		transform: var(--tw-transform);
-	}
-
-	.mxl\:translate-y-48 {
-		--tw-translate-y: 12rem;
 		transform: var(--tw-transform);
 	}
 
@@ -3489,6 +3527,10 @@ section {
 
 	.mxl\:pb-40 {
 		padding-bottom: 10rem;
+	}
+
+	.mxl\:pb-430px {
+		padding-bottom: 430px;
 	}
 
 	.mxl\:text-28rem {
@@ -3561,6 +3603,10 @@ section {
 
 	.mxl\:leading-3rem {
 		line-height: 3rem;
+	}
+
+	.mxl\:leading-4rem {
+		line-height: 4rem;
 	}
 
 	.mxl\:leading-9rem {
