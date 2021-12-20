@@ -24,6 +24,9 @@ const customTranslateX = plugin(function ({ addUtilities }) {
         ".-translate-x-350px": {
             transform: "translateX(-350px)",
         },
+        ".translate-y-18": {
+            transform: "translatey(4.5rem)",
+        },
     });
 });
 
@@ -131,10 +134,12 @@ module.exports = {
                 "3rem": "3rem",
                 "3.5rem": "3.5rem",
                 "4rem": "4rem",
+                "4.5rem": "4.5rem",
                 "5rem": "5rem",
                 "6rem": "6rem",
                 "6.5rem": "6.5rem",
                 "7rem": "7rem",
+                "7.5rem": "7.5rem",
                 "8rem": "8rem",
                 "8.5rem": "8.5rem",
                 "9rem": "9rem",
@@ -213,7 +218,10 @@ module.exports = {
                 "xl-main-rows": "400px 300px",
                 "2xl-main-rows": "325px 600px",
                 "mxl-main-rows": "380px 600px",
-                "product-rows": "5fr 90px 45px"
+                "product-rows": "5fr 90px 45px",
+                "product-rows-xl": "5fr 110px 55px",
+                "product-rows-2xl": "5fr 125px 60px",
+                "product-rows-mxl": "5fr 140px 60px",
             },
             marginTop: {
                 13: "3.25rem",
