@@ -175,6 +175,7 @@ module.exports = {
                 "24.75rem": "24.75rem",
             },
             lineHeight: {
+                "2.5rem": "2.5rem",
                 "3rem": "3rem",
                 "3.5rem": "3.5rem",
                 "4rem": "4rem",
