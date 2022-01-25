@@ -1876,6 +1876,10 @@ section {
 		margin-top: 0px;
 	}
 
+	.sm\:mt-10 {
+		margin-top: 2.5rem;
+	}
+
 	.sm\:inline-block {
 		display: inline-block;
 	}
@@ -2132,6 +2136,10 @@ section {
 
 	.sm\:pb-32 {
 		padding-bottom: 8rem;
+	}
+
+	.sm\:pt-10 {
+		padding-top: 2.5rem;
 	}
 
 	.sm\:text-left {
@@ -2684,6 +2692,10 @@ section {
 		margin-top: 5rem;
 	}
 
+	.lg\:mt-12 {
+		margin-top: 3rem;
+	}
+
 	.lg\:h-28 {
 		height: 7rem;
 	}
@@ -2738,6 +2750,14 @@ section {
 
 	.lg\:w-32 {
 		width: 8rem;
+	}
+
+	.lg\:w-3\/6 {
+		width: 50%;
+	}
+
+	.lg\:w-4\/6 {
+		width: 66.666667%;
 	}
 
 	.lg\:max-w-915px {
@@ -2895,6 +2915,10 @@ section {
 
 	.lg\:pb-20 {
 		padding-bottom: 5rem;
+	}
+
+	.lg\:pt-28 {
+		padding-top: 7rem;
 	}
 
 	.lg\:text-right {
@@ -3292,6 +3316,10 @@ section {
 
 	.xl\:pb-60 {
 		padding-bottom: 15rem;
+	}
+
+	.xl\:pt-32 {
+		padding-top: 8rem;
 	}
 
 	.xl\:text-left {
@@ -3745,6 +3773,10 @@ section {
 		padding-top: 12rem;
 	}
 
+	.\32xl\:pt-4 {
+		padding-top: 1rem;
+	}
+
 	.\32xl\:text-brand {
 		font-size: 28px;
 	}
@@ -3901,6 +3933,18 @@ section {
 		margin-left: -2.5rem;
 	}
 
+	.mxl\:-mt-5 {
+		margin-top: -1.25rem;
+	}
+
+	.mxl\:-mt-4 {
+		margin-top: -1rem;
+	}
+
+	.mxl\:-mt-36 {
+		margin-top: -9rem;
+	}
+
 	.mxl\:h-44 {
 		height: 11rem;
 	}
@@ -3947,6 +3991,10 @@ section {
 
 	.mxl\:w-1035px {
 		width: 1035px;
+	}
+
+	.mxl\:w-28rem {
+		width: 28rem;
 	}
 
 	.mxl\:max-w-initial {
@@ -4126,6 +4174,10 @@ section {
 
 	.mxl\:pt-56 {
 		padding-top: 14rem;
+	}
+
+	.mxl\:pb-36 {
+		padding-bottom: 9rem;
 	}
 
 	.mxl\:text-28rem {
