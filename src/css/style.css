@@ -3729,6 +3729,22 @@ section {
 		padding-bottom: 0px;
 	}
 
+	.\32xl\:pt-5 {
+		padding-top: 1.25rem;
+	}
+
+	.\32xl\:pt-52 {
+		padding-top: 13rem;
+	}
+
+	.\32xl\:pt-56 {
+		padding-top: 14rem;
+	}
+
+	.\32xl\:pt-48 {
+		padding-top: 12rem;
+	}
+
 	.\32xl\:text-brand {
 		font-size: 28px;
 	}
@@ -4106,6 +4122,10 @@ section {
 
 	.mxl\:pb-430px {
 		padding-bottom: 430px;
+	}
+
+	.mxl\:pt-56 {
+		padding-top: 14rem;
 	}
 
 	.mxl\:text-28rem {
