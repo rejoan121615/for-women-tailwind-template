@@ -1187,6 +1187,15 @@ video {
 .pt-3 {
 	padding-top: 0.75rem;
 }
+.pb-3 {
+	padding-bottom: 0.75rem;
+}
+.pb-32 {
+	padding-bottom: 8rem;
+}
+.pb-24 {
+	padding-bottom: 6rem;
+}
 .text-left {
 	text-align: left;
 }
@@ -1863,6 +1872,10 @@ section {
 		margin-top: 2rem;
 	}
 
+	.sm\:mt-0 {
+		margin-top: 0px;
+	}
+
 	.sm\:inline-block {
 		display: inline-block;
 	}
@@ -2113,6 +2126,14 @@ section {
 		padding-bottom: 9rem;
 	}
 
+	.sm\:pb-28 {
+		padding-bottom: 7rem;
+	}
+
+	.sm\:pb-32 {
+		padding-bottom: 8rem;
+	}
+
 	.sm\:text-left {
 		text-align: left;
 	}
@@ -2266,6 +2287,18 @@ section {
 
 	.md\:mt-44 {
 		margin-top: 11rem;
+	}
+
+	.md\:mt-10 {
+		margin-top: 2.5rem;
+	}
+
+	.md\:mt-1 {
+		margin-top: 0.25rem;
+	}
+
+	.md\:mt-16 {
+		margin-top: 4rem;
 	}
 
 	.md\:block {
@@ -2492,6 +2525,22 @@ section {
 
 	.md\:pb-20 {
 		padding-bottom: 5rem;
+	}
+
+	.md\:pb-4 {
+		padding-bottom: 1rem;
+	}
+
+	.md\:pb-5 {
+		padding-bottom: 1.25rem;
+	}
+
+	.md\:pb-52 {
+		padding-bottom: 13rem;
+	}
+
+	.md\:pb-48 {
+		padding-bottom: 12rem;
 	}
 
 	.md\:font-gil-reg {
@@ -2986,6 +3035,10 @@ section {
 		margin-top: 13rem;
 	}
 
+	.xl\:flex {
+		display: flex;
+	}
+
 	.xl\:h-32 {
 		height: 8rem;
 	}
@@ -3147,8 +3200,16 @@ section {
 		grid-template-rows: 5fr 110px 55px;
 	}
 
+	.xl\:flex-col {
+		flex-direction: column;
+	}
+
 	.xl\:content-center {
 		align-content: center;
+	}
+
+	.xl\:items-end {
+		align-items: flex-end;
 	}
 
 	.xl\:justify-end {
@@ -3223,6 +3284,14 @@ section {
 
 	.xl\:pb-72 {
 		padding-bottom: 18rem;
+	}
+
+	.xl\:pb-6 {
+		padding-bottom: 1.5rem;
+	}
+
+	.xl\:pb-60 {
+		padding-bottom: 15rem;
 	}
 
 	.xl\:text-left {
@@ -3361,6 +3430,34 @@ section {
 		margin-top: 15rem;
 	}
 
+	.\32xl\:-mt-1 {
+		margin-top: -0.25rem;
+	}
+
+	.\32xl\:-mt-20 {
+		margin-top: -5rem;
+	}
+
+	.\32xl\:mt-4 {
+		margin-top: 1rem;
+	}
+
+	.\32xl\:mt-44 {
+		margin-top: 11rem;
+	}
+
+	.\32xl\:mt-36 {
+		margin-top: 9rem;
+	}
+
+	.\32xl\:mt-40 {
+		margin-top: 10rem;
+	}
+
+	.\32xl\:flex {
+		display: flex;
+	}
+
 	.\32xl\:h-3\.5 {
 		height: 0.875rem;
 	}
@@ -3415,6 +3512,26 @@ section {
 
 	.\32xl\:w-40 {
 		width: 40%;
+	}
+
+	.\32xl\:w-860px {
+		width: 860px;
+	}
+
+	.\32xl\:w-96 {
+		width: 24rem;
+	}
+
+	.\32xl\:w-4 {
+		width: 1rem;
+	}
+
+	.\32xl\:w-490px {
+		width: 490px;
+	}
+
+	.\32xl\:w-28rem {
+		width: 28rem;
 	}
 
 	.\32xl\:max-w-1300px {
@@ -3497,6 +3614,26 @@ section {
 		transform: var(--tw-transform);
 	}
 
+	.\32xl\:translate-y-80 {
+		--tw-translate-y: 20rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:translate-x-40 {
+		--tw-translate-x: 10rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:-translate-x-40 {
+		--tw-translate-x: -10rem;
+		transform: var(--tw-transform);
+	}
+
+	.\32xl\:-translate-x-44 {
+		--tw-translate-x: -11rem;
+		transform: var(--tw-transform);
+	}
+
 	.\32xl\:grid-rows-2xl-main-rows {
 		grid-template-rows: 325px 600px;
 	}
@@ -3505,8 +3642,16 @@ section {
 		grid-template-rows: 5fr 125px 60px;
 	}
 
+	.\32xl\:flex-col {
+		flex-direction: column;
+	}
+
 	.\32xl\:content-end {
 		align-content: flex-end;
+	}
+
+	.\32xl\:items-end {
+		align-items: flex-end;
 	}
 
 	.\32xl\:gap-x-14 {
@@ -3544,6 +3689,10 @@ section {
 		padding-top: 15rem;
 	}
 
+	.\32xl\:pt-28 {
+		padding-top: 7rem;
+	}
+
 	.\32xl\:pt-0 {
 		padding-top: 0px;
 	}
@@ -3574,6 +3723,10 @@ section {
 
 	.\32xl\:pb-80 {
 		padding-bottom: 20rem;
+	}
+
+	.\32xl\:pb-0 {
+		padding-bottom: 0px;
 	}
 
 	.\32xl\:text-brand {
@@ -3700,6 +3853,10 @@ section {
 }
 @media (min-width: 1760px) {
 
+	.mxl\:mt-24 {
+		margin-top: 6rem;
+	}
+
 	.mxl\:mr-14 {
 		margin-right: 3.5rem;
 	}
@@ -3708,12 +3865,24 @@ section {
 		margin-left: 1.75rem;
 	}
 
-	.mxl\:mt-24 {
-		margin-top: 6rem;
-	}
-
 	.mxl\:mt-16 {
 		margin-top: 4rem;
+	}
+
+	.mxl\:mt-1 {
+		margin-top: 0.25rem;
+	}
+
+	.mxl\:mt-10 {
+		margin-top: 2.5rem;
+	}
+
+	.mxl\:ml-10 {
+		margin-left: 2.5rem;
+	}
+
+	.mxl\:-ml-10 {
+		margin-left: -2.5rem;
 	}
 
 	.mxl\:h-44 {
@@ -3730,6 +3899,10 @@ section {
 
 	.mxl\:w-12 {
 		width: 3rem;
+	}
+
+	.mxl\:w-1600px {
+		width: 1600px;
 	}
 
 	.mxl\:w-8\/12 {
@@ -3752,6 +3925,18 @@ section {
 		width: 13rem;
 	}
 
+	.mxl\:w-10 {
+		width: 2.5rem;
+	}
+
+	.mxl\:w-1035px {
+		width: 1035px;
+	}
+
+	.mxl\:max-w-initial {
+		max-width: initial;
+	}
+
 	.mxl\:max-w-430px {
 		max-width: 430px;
 	}
@@ -3767,6 +3952,11 @@ section {
 
 	.mxl\:-translate-x-20 {
 		--tw-translate-x: -5rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:translate-x-20 {
+		--tw-translate-x: 5rem;
 		transform: var(--tw-transform);
 	}
 
@@ -3802,6 +3992,61 @@ section {
 
 	.mxl\:-translate-y-16 {
 		--tw-translate-y: -4rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:translate-y-7 {
+		--tw-translate-y: 1.75rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:translate-y-72 {
+		--tw-translate-y: 18rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:translate-y-8 {
+		--tw-translate-y: 2rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:translate-y-80 {
+		--tw-translate-y: 20rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:translate-y-9 {
+		--tw-translate-y: 2.25rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:translate-y-96 {
+		--tw-translate-y: 24rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:-translate-x-2 {
+		--tw-translate-x: -0.5rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:-translate-x-24 {
+		--tw-translate-x: -6rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:-translate-x-36 {
+		--tw-translate-x: -9rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:-translate-x-56 {
+		--tw-translate-x: -14rem;
+		transform: var(--tw-transform);
+	}
+
+	.mxl\:-translate-x-60 {
+		--tw-translate-x: -15rem;
 		transform: var(--tw-transform);
 	}
 

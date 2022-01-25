@@ -251,6 +251,7 @@ module.exports = {
                 "1035px": "1035px",
                 "1115px": "1115px",
                 "1325px": "1325px",
+                "1600px": "1600px"
             },
             letterSpacing: {
                 "2xl": "15px",
