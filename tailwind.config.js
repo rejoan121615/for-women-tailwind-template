@@ -158,6 +158,7 @@ module.exports = {
                 "20rem": "20rem",
                 "21rem": "21rem",
                 "22rem": "22rem",
+                
                 "23rem": "23rem",
                 "24rem": "24rem",
                 "25rem": "25rem",
@@ -165,7 +166,8 @@ module.exports = {
                 "27rem": "27rem",
                 "28rem": "28rem",
                 "29rem": "29rem",
-                "30rem": "30rem",
+                "37rem": "37rem",
+                "45rem": "45rem",
                 brand: "28px",
                 "40px": "40px",
                 "17px": "17px",
@@ -209,6 +211,7 @@ module.exports = {
                 "28rem": "28rem",
                 "29rem": "29rem",
                 "30rem": "30rem",
+                "37rem": "37rem",
                 "10per": "160%",
             },
             gridTemplateRows: {
@@ -249,7 +252,6 @@ module.exports = {
                 "1115px": "1115px",
                 "1325px": "1325px",
             },
-
             letterSpacing: {
                 "2xl": "15px",
             },
