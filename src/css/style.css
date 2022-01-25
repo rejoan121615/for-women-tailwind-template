@@ -1272,6 +1272,9 @@ video {
 .font-black {
 	font-weight: 900;
 }
+.font-bold {
+	font-weight: 700;
+}
 .uppercase {
 	text-transform: uppercase;
 }
@@ -1320,6 +1323,10 @@ video {
 .text-main-light {
 	--tw-text-opacity: 1;
 	color: rgba(247, 231, 206, var(--tw-text-opacity));
+}
+.text-red-900 {
+	--tw-text-opacity: 1;
+	color: rgba(127, 29, 29, var(--tw-text-opacity));
 }
 .opacity-10 {
 	opacity: 0.1;
@@ -2389,6 +2396,14 @@ section {
 		width: 7rem;
 	}
 
+	.md\:w-6\/12 {
+		width: 50%;
+	}
+
+	.md\:w-5\/12 {
+		width: 41.666667%;
+	}
+
 	.md\:max-w-800px {
 		max-width: 800px;
 	}
@@ -2551,6 +2566,10 @@ section {
 		padding-bottom: 12rem;
 	}
 
+	.md\:pt-10 {
+		padding-top: 2.5rem;
+	}
+
 	.md\:font-gil-reg {
 		font-family: GilroyRegular;
 	}
@@ -2696,6 +2715,10 @@ section {
 		margin-top: 3rem;
 	}
 
+	.lg\:flex {
+		display: flex;
+	}
+
 	.lg\:h-28 {
 		height: 7rem;
 	}
@@ -2758,6 +2781,10 @@ section {
 
 	.lg\:w-4\/6 {
 		width: 66.666667%;
+	}
+
+	.lg\:w-4\/12 {
+		width: 33.333333%;
 	}
 
 	.lg\:max-w-915px {
@@ -2853,6 +2880,18 @@ section {
 		grid-template-rows: repeat(1, minmax(0, 1fr));
 	}
 
+	.lg\:items-end {
+		align-items: flex-end;
+	}
+
+	.lg\:justify-end {
+		justify-content: flex-end;
+	}
+
+	.lg\:justify-center {
+		justify-content: center;
+	}
+
 	.lg\:py-8 {
 		padding-top: 2rem;
 		padding-bottom: 2rem;
@@ -2919,6 +2958,14 @@ section {
 
 	.lg\:pt-28 {
 		padding-top: 7rem;
+	}
+
+	.lg\:pt-14 {
+		padding-top: 3.5rem;
+	}
+
+	.lg\:pt-4 {
+		padding-top: 1rem;
 	}
 
 	.lg\:text-right {
@@ -3057,6 +3104,10 @@ section {
 
 	.xl\:mt-52 {
 		margin-top: 13rem;
+	}
+
+	.xl\:mt-24 {
+		margin-top: 6rem;
 	}
 
 	.xl\:flex {
@@ -3322,6 +3373,18 @@ section {
 		padding-top: 8rem;
 	}
 
+	.xl\:pb-24 {
+		padding-bottom: 6rem;
+	}
+
+	.xl\:pt-1 {
+		padding-top: 0.25rem;
+	}
+
+	.xl\:pt-16 {
+		padding-top: 4rem;
+	}
+
 	.xl\:text-left {
 		text-align: left;
 	}
@@ -3480,6 +3543,22 @@ section {
 
 	.\32xl\:mt-40 {
 		margin-top: 10rem;
+	}
+
+	.\32xl\:mt-80 {
+		margin-top: 20rem;
+	}
+
+	.\32xl\:mt-9 {
+		margin-top: 2.25rem;
+	}
+
+	.\32xl\:mt-96 {
+		margin-top: 24rem;
+	}
+
+	.\32xl\:mt-72 {
+		margin-top: 18rem;
 	}
 
 	.\32xl\:flex {
@@ -3775,6 +3854,10 @@ section {
 
 	.\32xl\:pt-4 {
 		padding-top: 1rem;
+	}
+
+	.\32xl\:pb-24 {
+		padding-bottom: 6rem;
 	}
 
 	.\32xl\:text-brand {
